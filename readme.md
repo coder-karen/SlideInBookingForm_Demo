@@ -10,3 +10,8 @@ To set pre-booked dates, add the dates you wish to disable to var disableddates 
 
 To set the from and to email addresses, modify $email_from and $to in sendmail.php. Make sure your server's/localhost's settings enable you to send mail from the address you've given.
 
+# Screenshots
+
+![Screenshot slider open]( https://github.com/coder-karen/SlideInBookingForm_Demo/blob/master/images/ScreenshotForm.PNG)
+
+![Screenshot with calender open]( https://github.com/coder-karen/SlideInBookingForm_Demo/blob/master/images/ScreenshotFormCalender.PNG)
