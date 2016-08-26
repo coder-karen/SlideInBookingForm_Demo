@@ -27,12 +27,12 @@
    
 
 
-    $email_from = 'k_attfield@yahoo.com';
+    $email_from = 'yoursenderaddress@example.com';
     $email_subject = "New Form submission";
     $email_body = "You have received a new message from your booking form. \n\n From: $name\n Email: $from\n".
     "\n The booking dates requested are from: $datefrom to $dateto" .
                             "\n\nThe following message was included:\n $message.";
-    $to = "k_attfield@yahoo.com";
+    $to = "yourreceivingaddress@example.com";
     $headers = "From: $email_from \r\n";
     $headers .= "Reply-To: $from \r\n";
  

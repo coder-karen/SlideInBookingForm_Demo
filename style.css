@@ -35,8 +35,7 @@ a:visited {
 #bookingform {
   	position: fixed;
   	top: 40%;	
-  	left: -29px;
-  	z-index: 999;
+  	left: -39px;
 
     -webkit-transition-duration: 0.7s;
     -moz-transition-duration: 0.7s;
@@ -45,7 +44,7 @@ a:visited {
 }
 
 #bookingform a {
-	z-index: 999;
+	z-index: 99999;
 	padding: 1em;
 	border: 1px solid #fff;
 	border-radius: 20px;
@@ -87,7 +86,6 @@ a:visited {
 
 #bookingform_inner {
   position: fixed;
-  z-index: 999;
   top: 20%;
   left: -20.2em;
   width: 288px;
@@ -109,23 +107,6 @@ a:visited {
   transition-duration: 0.7s;
 }
 
-.presshere {
-  box-shadow: inset 0 0 0 0 rgba(0,0,0,0.75);
-  -webkit-transition: box-shadow: 0.7s ease-in-out;
-  -moz-transition: box-shadow: 0.7s ease-in-out;
-  -o-transition: box-shadow: 0.7s ease-in-out;
-  transition: box-shadow: 0.7s ease-in-out;
-
-}
-
-.presshere_shadow_on {
-  -webkit-box-shadow: inset 3px 4px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 3px 4px 5px  rgba(0,0,0,0.75);
-  -o-box-shadow: inset 3px 4px 5px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 6px 5px 0px rgba(0,0,0,0.75);
-
-}
-
 .bookingform_shadow {
   box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
   -webkit-transition: box-shadow: 0.7s ease-in-out;
@@ -135,14 +116,14 @@ a:visited {
 }
 
 .shadow_on {
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  -o-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 5px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 5px 3px 0px rgba(0,0,0,0.75);
+  -o-box-shadow: 3px 5px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 5px 3px 0px rgba(0,0,0,0.75);
 }
 
 .out {
-	left: 18.3em !important;
+	left: 17.6em !important;
 }
 
 .inner_out {
@@ -218,20 +199,7 @@ a:visited {
 	margin-bottom: 10px;
 }
 
-#dialog {
-	z-index: 999999999999;
-	border: 2px solid rgb(134,134,134);
 
-	background: url(images/cork-wallet.png) no-repeat center;
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
-  	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
-  	color: red;
-
-	text-align: center;
-	text-shadow: 0.5px 0.5px rgb(134,134,134);
-  	font-weight: bold;
-  }
 
 
 .ui-dialog-titlebar-close {
@@ -253,7 +221,7 @@ a:visited {
 	height: auto;
 	margin: 5px auto 0;
 
-	background: url(images/cork-wallet.png) no-repeat center; 
+	background: url(cork-wallet.png) no-repeat center; 
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
   	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);

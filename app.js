@@ -3,7 +3,6 @@ $(document).ready(function() {
 
   $('.presshere').click(function () {
 
-    $(this).toggleClass('presshere_shadow_on')
     $('#bookingform').toggleClass('out');
     $('#bookingform_inner').toggleClass('inner_out');
     $('#closebutton').toggleClass('close_out');
