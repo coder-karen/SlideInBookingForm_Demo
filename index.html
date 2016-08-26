@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Slide-in Booking form</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	</head>
+
+	<body>
+		<div id="container">
+
+			<div id="intro">
+				<h1>Welcome to a booking website</h1>
+				<p>Find out more about our services here...
+				</p>
+			</div>
+		
+		</div>
+
+		<div id="bookingform">
+
+ 			<strong><a href="#" alt="Booking Form" class="presshere">Book Here</a></strong>
+  			<div id="closebutton" class="presshere">X</a></div>
+ 
+  			<div id="bookingform_inner" class="bookingform_shadow">
+
+     			<form action="sendmail.php" method="POST">
+
+					<label for="name">Your name:</label><span class="error"> * </span>
+  					<input type="text" id="name" name="name"><br \>
+
+ 	 				<label for="email">Your email:</label><span class="error"> * </span>
+        			<input type="email" id="email" name="email">
+
+        			<p class="formalignment">Choose the dates you would like to book below:</p>
+					<label for="from">From:</label><span class="error"> * </span>
+					<input type="text" id="from" name="from">
+
+					<label for="to">To:</label><span class="error"> * </span>
+					<input type="text" id="to" name="to">
+					<br \>
+					
+					<p class="formalignment">Any additional comments:</p>
+					<textarea id="comments" name="comments"></textarea>
+        
+        			<button type="submit" id="submit" name="submit">Submit</button>
+        			
+        			<span class="error"> * indicates a required field</span>
+  
+				</form>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
